@@ -127,3 +127,22 @@ main {
     background: darkblue;
 }
 
+@media screen and (min-width: 800px) {
+    h2 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    h2,
+    h4 {
+        line-height: 1;
+    }
+}
+
